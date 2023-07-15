@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230715 14:14:42.452" rpa="false" schemaversion="4">
+<suite id="s1" name="Facebook" source="C:\Users\madem\PycharmProjects\automationtesting\robotframework\facebook.robot">
+<test id="s1-t1" name="Post_Pic" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230715 14:14:42.632" level="INFO">Opening browser 'headlesschrome' to base url 'https://mail.google.com/mail/'.</msg>
+<msg timestamp="20230715 14:14:42.632" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230715 14:14:42.632" endtime="20230715 14:14:45.678"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=email</arg>
+<arg>${VALID_USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230715 14:14:45.680" level="INFO">Typing text 'mademiohan26@gmail.com' into text field 'id=email'.</msg>
+<msg timestamp="20230715 14:14:45.740" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230715 14:14:45.740" level="FAIL">Element with locator 'id=email' not found.</msg>
+<status status="FAIL" starttime="20230715 14:14:45.679" endtime="20230715 14:14:45.742"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=pass</arg>
+<arg>${VALID_PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230715 14:14:45.743" endtime="20230715 14:14:45.743"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>name=login</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230715 14:14:45.743" endtime="20230715 14:14:45.743"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230715 14:14:45.744" endtime="20230715 14:14:45.744"/>
+</kw>
+<status status="FAIL" starttime="20230715 14:14:42.632" endtime="20230715 14:14:45.744">Element with locator 'id=email' not found.</status>
+</test>
+<status status="FAIL" starttime="20230715 14:14:42.452" endtime="20230715 14:14:45.746"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Facebook">Facebook</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
