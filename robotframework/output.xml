@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230721 17:17:32.394" rpa="false" schemaversion="4">
+<suite id="s1" name="Frames" source="C:\Users\madem\PycharmProjects\automationtesting\robotframework\frames.robot">
+<test id="s1-t1" name="login" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://seleniumhq.github.io/selenium/docs/api/java/index</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230721 17:17:32.679" level="INFO">Opening browser 'chrome' to base url 'https://seleniumhq.github.io/selenium/docs/api/java/index'.</msg>
+<msg timestamp="20230721 17:17:32.695" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230721 17:17:32.679" endtime="20230721 17:17:35.357"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230721 17:17:35.357" endtime="20230721 17:17:35.484"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>xpath:/html/body/header/nav/div[1]/div[2]/ul[1]/li[1]/a</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20230721 17:17:35.484" level="INFO">Selecting frame 'xpath:/html/body/header/nav/div[1]/div[2]/ul[1]/li[1]/a'.</msg>
+<msg timestamp="20230721 17:17:35.731" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230721 17:17:35.731" level="FAIL">NoSuchFrameException: Message: no such frame
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00DEA813+48355]
+	(No symbol) [0x00D7C4B1]
+	(No symbol) [0x00C85220]
+	(No symbol) [0x00C8A7C8]
+	(No symbol) [0x00CDDB81]
+	(No symbol) [0x00CCA73C]
+	(No symbol) [0x00CDC922]
+	(No symbol) [0x00CCA536]
+	(No symbol) [0x00CA82DC]
+	(No symbol) [0x00CA93DD]
+	GetHandleVerifier [0x0104AABD+2539405]
+	GetHandleVerifier [0x0108A78F+2800735]
+	GetHandleVerifier [0x0108456C+2775612]
+	GetHandleVerifier [0x00E751E0+616112]
+	(No symbol) [0x00D85F8C]
+	(No symbol) [0x00D82328]
+	(No symbol) [0x00D8240B]
+	(No symbol) [0x00D74FF7]
+	BaseThreadInitThunk [0x76F57D59+25]
+	RtlInitializeExceptionChain [0x778FB79B+107]
+	RtlClearBits [0x778FB71F+191]
+</msg>
+<status status="FAIL" starttime="20230721 17:17:35.484" endtime="20230721 17:17:35.766"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>org.openqa.selenium</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.766" endtime="20230721 17:17:35.766"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.766" endtime="20230721 17:17:35.768"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.768" endtime="20230721 17:17:35.768"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageframe</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.768" endtime="20230721 17:17:35.768"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>WerbDriver</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.768" endtime="20230721 17:17:35.768"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>classFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Help</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230721 17:17:35.769" endtime="20230721 17:17:35.769"/>
+</kw>
+<status status="FAIL" starttime="20230721 17:17:32.679" endtime="20230721 17:17:35.769">NoSuchFrameException: Message: no such frame
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00DEA813+48355]
+	(No symbol) [0x00D7C4B1]
+	(No symbol) [0x00C85220]
+	(No symbol) [0x00C8A7C8]
+	(No symbol) [0x00CDDB81]
+	(No symbol) [0x00CCA73C]
+	(No symbol) [0x00CDC922]
+	(No symbol) [0x00CCA536]
+	(No symbol) [0x00CA82DC]
+	(No symbol) [0x00CA93DD]
+	GetHandleVerifier [0x0104AABD+2539405]
+	GetHandleVerifier [0x0108A78F+2800735]
+	GetHandleVerifier [0x0108456C+2775612]
+	GetHandleVerifier [0x00E751E0+616112]
+	(No symbol) [0x00D85F8C]
+	(No symbol) [0x00D82328]
+	(No symbol) [0x00D8240B]
+	(No symbol) [0x00D74FF7]
+	BaseThreadInitThunk [0x76F57D59+25]
+	RtlInitializeExceptionChain [0x778FB79B+107]
+	RtlClearBits [0x778FB71F+191]
+</status>
+</test>
+<status status="FAIL" starttime="20230721 17:17:32.411" endtime="20230721 17:17:35.772"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Frames">Frames</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

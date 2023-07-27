@@ -10,6 +10,6 @@ driver.get("https://testautomationpractice.blogspot.com")
 cookie= driver.get_cookies()
 print(cookie)
 
-driver.delete_cookie("")
-driver.delete_all_cookies()
+# driver.delete_cookie("")
+# driver.delete_all_cookies()
 driver.quit()
